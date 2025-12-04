@@ -6,11 +6,11 @@ import os
 DEEPSEEK_BASE_URL = "https://api.deepseek.com/v1" 
 # 替换为你的 DeepSeek 真实 Key
 DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "api_key") 
-DEEPSEEK_MODEL = "model" 
+DEEPSEEK_MODEL = "deepseek-chat" 
 
 # --- 微信公众号配置 ---
-APP_ID = "your_app_id"       
-APP_SECRET = "your_app_sc " 
+APP_ID = "APP_ID"       
+APP_SECRET = "APP_SECRET " 
 WECHAT_BASE_URL = "https://api.weixin.qq.com/cgi-bin"
 
 # ⚠️ 必须替换：这是你通过 upload_image_material 函数获取到的封面图 media_id
